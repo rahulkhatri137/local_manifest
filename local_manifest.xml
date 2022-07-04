@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="rahulkhatri137/android_prebuilts_clang_host_linux-x86_clang-r353983c1" remote="github" revision="master" />
+
+  <!-- Parts -->
+  <project path="packages/apps/RealmeParts" name="rahulkhatri137/android_packages_apps_RealmeParts" remote="github" revision="eleven" />
+
+  <!-- Trees -->
+  <project path="device/oppo/CPH1859" name="rahulkhatri137/android_device_oppo_CPH1859" remote="github" revision="12" />
+  <project path="vendor/oppo/CPH1859" name="rahulkhatri137/android_vendor_oppo_CPH1859" remote="github" revision="12" />
+  <project path="kernel/oppo/CPH1859" name="rahulkhatri137/android_kernel_realme_mt6771" remote="github" revision="12" />
+  
+</manifest>
