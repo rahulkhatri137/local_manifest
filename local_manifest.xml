@@ -14,5 +14,9 @@
   <project path="device/oppo/CPH1859" name="rahulkhatri137/android_device_oppo_CPH1859" remote="github" revision="twelve" />
   <project path="vendor/oppo/CPH1859" name="rahulkhatri137/android_vendor_oppo_CPH1859" remote="github" revision="twelve" />
   <project path="kernel/oppo/CPH1859" name="rahulkhatri137/android_kernel_oppo_CPH1859" remote="github" revision="twelve" />
-  
+ 
+  <!-- Trash -->
+  <remove-project name="xd_device_xdroid_sepolicy" />
+  <project path="device/xdroid/sepolicy" name="rahulkhatri137/xd_device_xdroid_sepolicy" remote="github" revision="cph" />
+ 
 </manifest>
