@@ -7,9 +7,16 @@
   <!-- Parts -->
   <project path="packages/apps/RealmeParts" name="rahulkhatri137/android_packages_apps_RealmeParts" remote="github" revision="twelve" />
 
+  <!-- SEPolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="CorvusRom-Devices/device_mediatek_sepolicy_vndr" remote="github" revision="twelve"/>
+
   <!-- Trees -->
   <project path="device/oppo/CPH1859" name="rahulkhatri137/android_device_oppo_CPH1859" remote="github" revision="twelve" />
   <project path="vendor/oppo/CPH1859" name="rahulkhatri137/android_vendor_oppo_CPH1859" remote="github" revision="twelve" />
   <project path="kernel/oppo/CPH1859" name="rahulkhatri137/android_kernel_oppo_CPH1859" remote="github" revision="twelve" />
-  
+ 
+  <!-- LB Fix -->
+  <remove-project name="RiceDroid/android_frameworks_base" />
+  <project path="frameworks/base" name="rahulkhatri137/android_frameworks_base" remote="github" revision="twelve" />
+ 
 </manifest>
