@@ -17,12 +17,7 @@
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rk" />
 
   <!-- FWB Patch -->
-  <remove-project name="RiceDroid/android_frameworks_base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="rk" />
-  <remove-project name="RiceDroid/android_art" />
-  <project path="art" name="android_art" remote="rk" />
-  <remove-project name="RiceDroid/android_libcore" />
-  <project path="libcore" name="android_libcore" remote="rk" />
-
+  <remove-project name="AospExtended/platform_frameworks_base" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="rk" />
 
 </manifest>
