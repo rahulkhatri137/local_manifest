@@ -13,9 +13,6 @@
   <project path="vendor/oppo/CPH1859" name="android_vendor_oppo_CPH1859" remote="rk" />
   <project path="kernel/oppo/CPH1859" name="android_kernel_oppo_CPH1859" remote="rk" />
   
-  <!-- SEPolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rk" />
-
   <!-- FWB Patch -->
   <remove-project name="cipher/android_frameworks_base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rk" />
