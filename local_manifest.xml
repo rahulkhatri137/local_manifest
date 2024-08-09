@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="rk"
-           fetch="https://github.com/rahulkhatri137"
-           revision="twelve"/>
+    <!-- Remotes -->
+    <remote name="rahulkhatri137" fetch="https://github.com/rahulkhatri137" clone-depth="1" />
 
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="android_prebuilts_clang_host_linux-x86_clang-r353983c1" remote="rk" />
+    <!-- Trees -->
+    <project path="device/oppo/CPH1859" name="android_device_oppo_CPH1859" remote="rahulkhatri137" revision="twelve" />
+    <project path="vendor/oppo/CPH1859" name="android_vendor_oppo_CPH1859" remote="rahulkhatri137" revision="twelve" />
+    <project path="kernel/oppo/CPH1859" name="android_kernel_oppo_CPH1859" remote="rahulkhatri137" revision="twelve" />
 
-  <!-- Trees -->
-  <project path="device/oppo/CPH1859" name="android_device_oppo_CPH1859" remote="rk" />
-  <project path="vendor/oppo/CPH1859" name="android_vendor_oppo_CPH1859" remote="rk" />
-  <project path="kernel/oppo/CPH1859" name="android_kernel_oppo_CPH1859" remote="rk" />
-  
-  <!-- SEPolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rk" />
+    <!-- Removals -->
+    <remove-project name="LineageOS/android_frameworks_base" />
+
+    <!-- Repos -->
+    <project path="frameworks/base" name="platform_frameworks_base" remote="rahulkhatri137" revision="twelve" />
+    <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rahulkhatri137" revision="twelve" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r353983c1" name="android_prebuilts_clang_host_linux-x86_clang-r353983c1" remote="rahulkhatri137" revision="twelve" />
 
 </manifest>
